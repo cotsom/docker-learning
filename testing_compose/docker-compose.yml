@@ -1,0 +1,11 @@
+version: "3.9"
+services:
+  mainapp:
+    stdin_open: true
+    tty: true
+    build: ./app
+    working_dir: /to_upload
+
+    ports:
+      - '8000:8000'
+
